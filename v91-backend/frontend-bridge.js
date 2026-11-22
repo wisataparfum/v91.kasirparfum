@@ -7,7 +7,7 @@
  * ============================================================================
  */
 
-const V91_API_BASE = window.V91_API_BASE || '/api';
+const NEXT_PUBLIC_API_URL = window.NEXT_PUBLIC_API_URL || '/api';
 const V91_TOKEN_KEY = 'v91_kasirparfum_jwt_token';
 
 function getAuthToken() {
